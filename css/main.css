@@ -97,6 +97,7 @@ textarea {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: left;
+    color: #e2e3ed;
   }
 
   ul, 
@@ -112,12 +113,15 @@ textarea {
   h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
+    font-weight: 500;   
   }
 
   h3,
   h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125em;
+    font-weight: 500;
+    margin: 20px 0;
   }
 
   p {
@@ -150,6 +154,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #202322;
   }
 
   header {
@@ -168,6 +173,7 @@ textarea {
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
+    background: #3a3a3a;
   }
 
   header nav {
@@ -176,6 +182,10 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     width: 60%;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
+
   }
 
   header nav ul {
@@ -184,8 +194,13 @@ textarea {
     width: 100%;
   }
 
+  header nav ul li {
+    font-size: 1.125em;
+  }
+
   footer {
     flex-direction: column;
+    text-align: center;
   }
 
   footer p {
@@ -227,6 +242,13 @@ textarea {
     align-items: row wrap;
   }
 
+  .hero-area h1 {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 2.25em;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
   /* Aside */
 
   aside {
@@ -234,6 +256,37 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
+  }
+
+  aside .content-wrapper {
+    margin-top: 30px;
+  }
+
+  aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #9d9ea4;
+    font-style: italic;
+    padding: 1em;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   /* Features */
@@ -262,6 +315,7 @@ textarea {
 
   .features p {
     margin: 0;
+    text-align: center;
   } 
 
   /* Reviews */
@@ -270,10 +324,12 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-color: #2a423a;
   }
 
   .reviews h2 {
-    padding-bottom: 25px;
+    margin-bottom: 40px;
+    line-height: 1;
   }
 
   .reviews h3 {
@@ -290,6 +346,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
   }
 
   .contact-section {
@@ -297,6 +354,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #2a423a;
   }
 
   .contact-content p {
@@ -312,10 +370,11 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
   }
 
   .faq .content-wrapper {
-    padding: 50px 0 0 0;
+    margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,10 +383,15 @@ textarea {
 
   .faq h2 {
     margin-bottom: 40px;
+    line-height: 1;
   }
-  
+
   .faq-content {
     margin-bottom: 50px;
+  }
+
+  .faq h4 {
+    line-height: 1.3333;
   }
 
 /* ==========================================================================
@@ -512,7 +576,7 @@ footer .copyright {
   /* ==========================================================================
    About Page
    ========================================================================== */
-  .mission-content {
+   .mission-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -562,7 +626,6 @@ footer .copyright {
   .hero-area h1 {
     width: 70%;
   }
-
 
   /* Aside */
   aside .content-wrapper {
