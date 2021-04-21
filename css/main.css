@@ -199,6 +199,8 @@ textarea {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   header nav ul li {
@@ -221,6 +223,10 @@ textarea {
 
   footer .contact {
     margin-bottom: 50px;
+  }
+
+  footer h4 {
+    margin-top: 0;
   }
 
   footer .social-icons {
@@ -277,6 +283,10 @@ textarea {
     background-color: #527158;
   }
 
+  aside .content-wrapper {
+    margin-top: 0;
+  }
+
   aside .form {
     margin-top: 30px;
   }
@@ -314,7 +324,8 @@ textarea {
   }
 
   .features h2 {
-    margin-bottom: 60px;
+    margin-top: 0;
+    margin-bottom: 30px;
   }
   
   .features article {
@@ -349,6 +360,7 @@ textarea {
   }
 
   .reviews h2 {
+    margin-top: 0;
     margin-bottom: 40px;
     line-height: 1;
   }
@@ -356,6 +368,10 @@ textarea {
   .reviews h3 {
     width: 55%;
     margin: 20px 0;
+  }
+
+  .reviews p {
+    margin: 0;
   }
 
   /* ==========================================================================
@@ -368,6 +384,18 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     background-color: #527158;
+  }
+
+  .mission-content p {
+    margin: 0;
+  }
+
+  .mission h2 {
+    margin-top: 0;
+  }
+  
+  .mission p {
+    margin-bottom: 0;
   }
 
   .map figure {
@@ -394,7 +422,11 @@ textarea {
     background-color: #2a423a;
   }
 
-  .contact-content p {
+  .contact-section h2 {
+    margin-top: 0;
+  }
+
+  .contact-section p {
     margin: 0;
   }
 
@@ -411,7 +443,7 @@ textarea {
   }
 
   .faq .content-wrapper {
-    margin: 50px 0 0 0;
+    margin: 50px 0 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -419,16 +451,22 @@ textarea {
   }
 
   .faq h2 {
-    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 35px;
     line-height: 1;
   }
 
   .faq-content {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
 
   .faq h4 {
     line-height: 1.3333;
+    margin: 15px 0;
+  }
+
+  .faq p {
+    margin: 0;
   }
 
 /* ==========================================================================
@@ -554,7 +592,7 @@ header figure {
 }
 
 header nav {
-  width: 30%;
+  width: 8.125em;
 }
 
 header nav ul {
@@ -590,14 +628,26 @@ aside .content-wrapper .form {
   margin: 0;
 }
 
+input[type=text] {
+  padding: .5em;
+}
+
+input[type=button] {
+    padding: 10px;
+}
+
 /* Features */
+.features .content-wrapper {
+  margin-bottom: 70px;
+}
+
 .features h2 {
   margin-bottom: 20px;
 }
 
 .features article {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: column wrap;
   flex-basis: 50%;
@@ -704,6 +754,7 @@ footer .copyright {
    ========================================================================== */
   .faq .content-wrapper {
     justify-content: space-between;
+    margin: 100px 0 65px 0;
   }
   
    .faq-content {
@@ -718,6 +769,10 @@ footer .copyright {
   .faq p {
       font-size: .875em;
       line-height: 1.125;
+  }
+
+  .faq h4 {
+    margin-top: 0;
   }
 
 }
@@ -755,6 +810,10 @@ footer .copyright {
     width: 29%;
   }
 
+  header nav {
+    width: 8.75em;
+  }
+
   /* Hero area */
   .hero-area h1 {
     width: 80%;
@@ -771,6 +830,14 @@ footer .copyright {
     width: 30%;
   }
 
+  input[type=text] {
+    padding: .8em;
+  }
+  
+  input[type=button] {
+      padding: 15px;
+  }
+
   .form-description p {
     font-size: 1.125em;
   }
@@ -778,6 +845,7 @@ footer .copyright {
   /* Features */
   .features h2 {
     width: 90%;
+    margin-bottom: 70px;
   }
 
   .features article {
