@@ -269,10 +269,6 @@ textarea {
     background-color: #527158;
   }
 
-  aside .content-wrapper {
-    margin-top: 30px;
-  }
-
   aside .form {
     margin-top: 30px;
   }
@@ -310,7 +306,7 @@ textarea {
   }
 
   .features h2 {
-    padding-bottom: 60px;
+    margin-bottom: 60px;
   }
   
   .features article {
@@ -359,6 +355,22 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     background-color: #527158;
+  }
+
+  .map figure {
+    width: 100%;
+    height: 0; 
+    padding-bottom: 125%; 
+    overflow: hidden;
+    position: relative;
+}
+ 
+  .map iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute; 
+      top: 0; 
+      left: 0; 
   }
 
   .contact-section {
@@ -608,7 +620,7 @@ footer .content-wrapper {
   margin: 100px 0;
 }
 
-.footer-content {
+footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -639,7 +651,7 @@ footer .copyright {
    .mission-content {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding-top: 20px;
   }
 
@@ -688,6 +700,8 @@ footer .copyright {
 /*Desktop styles here*/
 
   /* General styles */
+  
+  
   .content-wrapper {
     max-width: 960px;
   }
@@ -766,6 +780,10 @@ footer .copyright {
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
+  }
+
+  .contact-content h4 {
+    font-size: 1.875em;
   }
 
   /* ==========================================================================
