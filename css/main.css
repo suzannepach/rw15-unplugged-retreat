@@ -260,7 +260,7 @@ textarea {
   .hero-area {
     display: flex;
     justify-content: center;
-    align-items: row wrap;
+    flex-flow: row wrap;
     background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
     background-size: cover;
     min-height: 500px;
